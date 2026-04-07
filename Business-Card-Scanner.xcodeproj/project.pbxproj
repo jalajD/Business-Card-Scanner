@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F0C61DBC52F98950A366744 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B3418A1D40C23710ED96A6 /* Foundation.framework */; };
+		17BD732748BB7B64868615CE /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EA2838CED3DF1B9E928820 /* CameraView.swift */; };
+		267B3D6BC35E2EC9FC9CF80B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8122D952E3E8ECA3797F7675 /* Persistence.swift */; };
+		28456C8A3C5773ACBFA2CFD7 /* Pods_Business_Card_Scanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29CA15B3FAFC5FFDBA2D534 /* Pods_Business_Card_Scanner.framework */; };
+		32366BB5673722FA66EE1784 /* Business_Card_ScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A5608EB17A3ADF5B4AD912 /* Business_Card_ScannerApp.swift */; };
+		57003DF8B0DCEB800905E180 /* TextRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE65B80627066150A965B1B6 /* TextRecognitionService.swift */; };
+		5D82C6729423D3311E394F2F /* BusinessCardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE113AD5F701F106A0A77301 /* BusinessCardDetailView.swift */; };
+		7DB02B02C25403507AB9BEBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C86A7ED0AB6CDF03A8EEF9 /* Assets.xcassets */; };
+		ABA6A50D35578C19A36AD22E /* Business_Card_Scanner.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = A95DCFC7184E4846EC62FBFB /* Business_Card_Scanner.xcdatamodeld */; };
+		C50AD235D54C245B436117FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AC3BECF0FB6F2A88B52B06 /* ContentView.swift */; };
+		C56197EEB4109481B600C090 /* ScanBusinessCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267657911E25A1782526E559 /* ScanBusinessCardView.swift */; };
+		D9A9FA89E1E4F6822FE5BBAE /* BusinessCardEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D72A05E1187D265E51A53 /* BusinessCardEditView.swift */; };
+		E182AB730752AA63964E2922 /* BusinessCardParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3862D38E0B71645FEB48741F /* BusinessCardParser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0927FFEDF7277DB2B163BFA5 /* Pods-Business-Card-Scanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Business-Card-Scanner.release.xcconfig"; path = "Target Support Files/Pods-Business-Card-Scanner/Pods-Business-Card-Scanner.release.xcconfig"; sourceTree = "<group>"; };
+		267657911E25A1782526E559 /* ScanBusinessCardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScanBusinessCardView.swift; path = "Business-Card-Scanner/ScanBusinessCardView.swift"; sourceTree = "<group>"; };
+		27C86A7ED0AB6CDF03A8EEF9 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Business-Card-Scanner/Assets.xcassets"; sourceTree = "<group>"; };
+		3862D38E0B71645FEB48741F /* BusinessCardParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BusinessCardParser.swift; path = "Business-Card-Scanner/BusinessCardParser.swift"; sourceTree = "<group>"; };
+		501A03A6D35D014DA1581AF0 /* Business_Card_Scanner.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = Business_Card_Scanner.xcdatamodel; sourceTree = "<group>"; };
+		50A5608EB17A3ADF5B4AD912 /* Business_Card_ScannerApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Business_Card_ScannerApp.swift; path = "Business-Card-Scanner/Business_Card_ScannerApp.swift"; sourceTree = "<group>"; };
+		61D4927AAD56F4BCBA6851E3 /* Business-Card-Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Business-Card-Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1610FEB0161AF5C1851D94 /* Pods-Business-Card-Scanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Business-Card-Scanner.debug.xcconfig"; path = "Target Support Files/Pods-Business-Card-Scanner/Pods-Business-Card-Scanner.debug.xcconfig"; sourceTree = "<group>"; };
+		8122D952E3E8ECA3797F7675 /* Persistence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Persistence.swift; path = "Business-Card-Scanner/Persistence.swift"; sourceTree = "<group>"; };
+		B4EA2838CED3DF1B9E928820 /* CameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraView.swift; path = "Business-Card-Scanner/CameraView.swift"; sourceTree = "<group>"; };
+		B8B3418A1D40C23710ED96A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BB7D72A05E1187D265E51A53 /* BusinessCardEditView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BusinessCardEditView.swift; path = "Business-Card-Scanner/BusinessCardEditView.swift"; sourceTree = "<group>"; };
+		BE113AD5F701F106A0A77301 /* BusinessCardDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BusinessCardDetailView.swift; path = "Business-Card-Scanner/BusinessCardDetailView.swift"; sourceTree = "<group>"; };
+		CE65B80627066150A965B1B6 /* TextRecognitionService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextRecognitionService.swift; path = "Business-Card-Scanner/TextRecognitionService.swift"; sourceTree = "<group>"; };
+		D29CA15B3FAFC5FFDBA2D534 /* Pods_Business_Card_Scanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Business_Card_Scanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA0D938A4EDF1A7AB10EAF6A /* Pods-Business-Card-Scanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Business-Card-Scanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-Business-Card-Scanner/Pods-Business-Card-Scanner.release.xcconfig"; sourceTree = "<group>"; };
+		E0AC3BECF0FB6F2A88B52B06 /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "Business-Card-Scanner/ContentView.swift"; sourceTree = "<group>"; };
+		F7D4388B1CC5B7660CA20693 /* Pods-Business-Card-Scanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Business-Card-Scanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Business-Card-Scanner/Pods-Business-Card-Scanner.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9CE09B91E98A3EFC0F54DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F0C61DBC52F98950A366744 /* Foundation.framework in Frameworks */,
+				28456C8A3C5773ACBFA2CFD7 /* Pods_Business_Card_Scanner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FCA1A118E3CD63A1584C42A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0927FFEDF7277DB2B163BFA5 /* Pods-Business-Card-Scanner.release.xcconfig */,
+				7F1610FEB0161AF5C1851D94 /* Pods-Business-Card-Scanner.debug.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		45A105DE898A40A9A30490FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61D4927AAD56F4BCBA6851E3 /* Business-Card-Scanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74D5F502061CBF50D24D1283 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B8B3418A1D40C23710ED96A6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		818EC1117A1CD9922771C030 = {
+			isa = PBXGroup;
+			children = (
+				45A105DE898A40A9A30490FD /* Products */,
+				91B687432B2B5237936BCFDA /* Frameworks */,
+				BA05475C7504A07110343FFB /* Business-Card-Scanner */,
+				3FCA1A118E3CD63A1584C42A /* Pods */,
+				F7D4388B1CC5B7660CA20693 /* Pods-Business-Card-Scanner.debug.xcconfig */,
+				DA0D938A4EDF1A7AB10EAF6A /* Pods-Business-Card-Scanner.release.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		91B687432B2B5237936BCFDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74D5F502061CBF50D24D1283 /* iOS */,
+				D29CA15B3FAFC5FFDBA2D534 /* Pods_Business_Card_Scanner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA05475C7504A07110343FFB /* Business-Card-Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				50A5608EB17A3ADF5B4AD912 /* Business_Card_ScannerApp.swift */,
+				E0AC3BECF0FB6F2A88B52B06 /* ContentView.swift */,
+				8122D952E3E8ECA3797F7675 /* Persistence.swift */,
+				CE65B80627066150A965B1B6 /* TextRecognitionService.swift */,
+				3862D38E0B71645FEB48741F /* BusinessCardParser.swift */,
+				B4EA2838CED3DF1B9E928820 /* CameraView.swift */,
+				BB7D72A05E1187D265E51A53 /* BusinessCardEditView.swift */,
+				BE113AD5F701F106A0A77301 /* BusinessCardDetailView.swift */,
+				267657911E25A1782526E559 /* ScanBusinessCardView.swift */,
+				A95DCFC7184E4846EC62FBFB /* Business_Card_Scanner.xcdatamodeld */,
+				27C86A7ED0AB6CDF03A8EEF9 /* Assets.xcassets */,
+			);
+			name = "Business-Card-Scanner";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B53D52FBD3FCB6A5DC1A714 /* Business-Card-Scanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86CB3B67E3293DCDB66CCF3A /* Build configuration list for PBXNativeTarget "Business-Card-Scanner" */;
+			buildPhases = (
+				51B25736FC9813464982896B /* [CP] Check Pods Manifest.lock */,
+				15FF4C0DFBB879EBCDF9E830 /* Sources */,
+				A9CE09B91E98A3EFC0F54DE8 /* Frameworks */,
+				5CA166632F3D407939B0C37E /* Resources */,
+				583EDC7A3720ADE8B33FAA42 /* [CP] Embed Pods Frameworks */,
+				C63350D964421BE18E591D30 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Business-Card-Scanner";
+			productName = "Business-Card-Scanner";
+			productReference = 61D4927AAD56F4BCBA6851E3 /* Business-Card-Scanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDC4E05C95F65464A4FFC0A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 5C6CFA2307782E87E6318555 /* Build configuration list for PBXProject "Business-Card-Scanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 818EC1117A1CD9922771C030;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 45A105DE898A40A9A30490FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B53D52FBD3FCB6A5DC1A714 /* Business-Card-Scanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CA166632F3D407939B0C37E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABA6A50D35578C19A36AD22E /* Business_Card_Scanner.xcdatamodeld in Resources */,
+				7DB02B02C25403507AB9BEBF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51B25736FC9813464982896B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Business-Card-Scanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		583EDC7A3720ADE8B33FAA42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Business-Card-Scanner/Pods-Business-Card-Scanner-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Business-Card-Scanner/Pods-Business-Card-Scanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C63350D964421BE18E591D30 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Business-Card-Scanner/Pods-Business-Card-Scanner-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MLKitTextRecognition/LatinOCRResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LatinOCRResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Business-Card-Scanner/Pods-Business-Card-Scanner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15FF4C0DFBB879EBCDF9E830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32366BB5673722FA66EE1784 /* Business_Card_ScannerApp.swift in Sources */,
+				C50AD235D54C245B436117FC /* ContentView.swift in Sources */,
+				267B3D6BC35E2EC9FC9CF80B /* Persistence.swift in Sources */,
+				57003DF8B0DCEB800905E180 /* TextRecognitionService.swift in Sources */,
+				E182AB730752AA63964E2922 /* BusinessCardParser.swift in Sources */,
+				17BD732748BB7B64868615CE /* CameraView.swift in Sources */,
+				D9A9FA89E1E4F6822FE5BBAE /* BusinessCardEditView.swift in Sources */,
+				5D82C6729423D3311E394F2F /* BusinessCardDetailView.swift in Sources */,
+				C56197EEB4109481B600C090 /* ScanBusinessCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1148B1A4C9AE243C2382B808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7D4388B1CC5B7660CA20693 /* Pods-Business-Card-Scanner.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = R78TMGXGD5;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to scan business cards";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library to import business cards";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jalaj.deotwal.Business-Card-Scanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		252C208A9380276F9B026147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA0D938A4EDF1A7AB10EAF6A /* Pods-Business-Card-Scanner.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = R78TMGXGD5;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to scan business cards";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library to import business cards";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jalaj.deotwal.Business-Card-Scanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B6B982A3FA524D90CDD3281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0927FFEDF7277DB2B163BFA5 /* Pods-Business-Card-Scanner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9519916EAD1065CA52C921AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F1610FEB0161AF5C1851D94 /* Pods-Business-Card-Scanner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C6CFA2307782E87E6318555 /* Build configuration list for PBXProject "Business-Card-Scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1148B1A4C9AE243C2382B808 /* Debug */,
+				252C208A9380276F9B026147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86CB3B67E3293DCDB66CCF3A /* Build configuration list for PBXNativeTarget "Business-Card-Scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B6B982A3FA524D90CDD3281 /* Release */,
+				9519916EAD1065CA52C921AE /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A95DCFC7184E4846EC62FBFB /* Business_Card_Scanner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				501A03A6D35D014DA1581AF0 /* Business_Card_Scanner.xcdatamodel */,
+			);
+			currentVersion = 501A03A6D35D014DA1581AF0 /* Business_Card_Scanner.xcdatamodel */;
+			name = Business_Card_Scanner.xcdatamodeld;
+			path = "Business-Card-Scanner/Business_Card_Scanner.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FDC4E05C95F65464A4FFC0A1 /* Project object */;
+}

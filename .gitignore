@@ -1,0 +1,15 @@
+# Xcode
+xcuserdata/
+DerivedData/
+build/
+*.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+
+# CocoaPods
+Pods/
+
+# macOS
+.DS_Store
+
+# Build artifacts
+*.ipa
+*.dSYM.zip
